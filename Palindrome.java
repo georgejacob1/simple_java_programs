@@ -11,7 +11,7 @@ public class Palindrome
    while(n>0)
    {
    r=n%10;
-   sum * = 10+r;
+   sum *= 10+r;
    n=n/10;
    }
    if(temp==sum)
@@ -22,5 +22,6 @@ public class Palindrome
    {
    System.out.println(temp + " is not a palindrome number.");
    }
+   readme.close();
 }
 }

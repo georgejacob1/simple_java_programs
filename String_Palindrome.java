@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 class Palindrome_String {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // Create a Scanner object
@@ -19,5 +20,7 @@ class Palindrome_String {
         } else {
             System.out.println(inputFromUser + " is not a Palindrome String."); // print if it is not palindrome
         }
+
+        myObj.close();
     }
 }
