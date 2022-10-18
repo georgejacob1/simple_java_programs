@@ -15,8 +15,7 @@ public class Dequeing
         System.out.println("add(9) : "+dq);
         dq.addFirst(2);
         System.out.println("addFirst(2) : "+dq);
-        dq.addLast(100);
-        System.out.println("addLast(100) : "+dq);
+      
         dq.push(5);
         System.out.println("push(5) : "+dq);
         dq.offer(4);
