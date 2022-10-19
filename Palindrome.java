@@ -16,7 +16,7 @@ public class Palindrome
    }
    if(temp==sum)
    {
-   System.out.println(temp + " is a palindrome number.");
+   System.out.println(temp + " is a palindrome number....!");
    } 
    else
    {
