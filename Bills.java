@@ -26,8 +26,7 @@ class bill implements calc
         total = quantity * unit_price;
     }
     public void display()
-    {        
-        System.out.println(p_id+"\t\t"+name+"\t\t"+quantity+"\t\t"+unit_price_in_rupee+"\t"+total);
+    {   System.out.println(p_id+"\t\t"+name+"\t\t"+quantity+"\t\t"+unit_price+"\t"+total);
     }
 }
 
