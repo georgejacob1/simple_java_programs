@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 interface calc
 {
+    
     void calculate();
+
 } 
 class bill implements calc
 {
