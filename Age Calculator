@@ -2,7 +2,9 @@ import java.time.*;
 import java.util.*;  
 public class CalculateAgeExample2  
 {    
+
 public static void main(String args[])  
+
 {  
 //obtains an instance of LocalDate from a year, month and date  
 LocalDate dob = LocalDate.of(1988, 12, 13);  
